@@ -1,0 +1,86 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+
+}
+body {
+	background: radial-gradient(#fff, #ffd6d6) ;
+	
+}
+.bg-light{
+	background: radial-gradient(#fff, #ffd7d7) ! important;
+
+}
+.nav-item  {
+	font-size: 18px;
+	font-weight: 60;
+	display: inline-block;
+
+}
+section{
+	display: flex;
+	height:100vh; 
+	background-size: cover; 
+	background-image: url(donation.jpg);
+}
+.container{
+	padding-top: 65px;
+}
+.text-section{
+	text-align: center;
+	 line-height: 2.1;
+}
+.col-md-4{
+	padding: 10px;
+}
+.card{
+	background: lightgrey !important;
+	
+}
+.card-img-top{
+	display: flex;
+}
+.jumbotron{
+	
+	background: lightgreen ! important;
+}
+/*contact.html+++++++*/
+	.contact{
+		padding: 10%;
+		height: 400px;
+	}
+	.col-md-3{
+		background: #00b3b3;
+		padding: 4%;
+		border-top-left-radius: 0.5rem;
+		border-bottom-left-radius: 0.5rem;
+	}
+	.contact-info{
+		margin-top:10%;
+	}
+	.contact-info img{
+		margin-bottom: 15%;
+	}
+	.contact-info h2{
+		margin-bottom: 10%;
+	}
+	.col-md-9{
+		background: #fff;
+		padding: 3%;
+		border-top-right-radius: 0.5rem;
+		border-bottom-right-radius: 0.5rem;
+	}
+	.contact-form label{
+		font-weight:600;
+	}
+	.contact-form button{
+		background: #25274d;
+		color: #fff;
+		font-weight: 600;
+		width: 25%;
+	}
+	.contact-form button:focus{
+		box-shadow:none;
+	}
